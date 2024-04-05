@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="coffee, cafe, menu, events">
+    <meta name="author" content="Aneela Hada">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Java Been</title>
+    
+  </head>
+
+<body>
+    
+    <div id="mainmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li class="selected"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <p>Contact</p>
+
+    <form name="contact" method="post" action="contact.html">
+        First Name <br> <input size="20" maxlength="15" type="text" name="FirstName" value="First Name"><br>
+        Last Name <br> <input type="text" name="LastName" value="Last Name"><br>
+        Phone Number <br> <input type="text" name="PhoneNumber" value="Phone Number"><br>
+        Questions/Comments <br>
+        <textarea name="Comments" rows="15" cols="40">
+            Write a message...
+
+        </textarea><br>
+        <br>
+        <input type="checkbox" name="box" value="yes"> I agree to receive text messages and updates about this request.
+        </br>
+        <input type="reset" name="new" value="Cancel">
+        <input type="submit" name="Sub" value="Submit">
+        
+
+        
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/Javascript"></script>
+    <script src="java.js" type="text/Javascript"></script>
+    
+   
+   
+</body>
+</html>
