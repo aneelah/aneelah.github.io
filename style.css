@@ -12,7 +12,7 @@
 body {
     background: #6f4e37;
     font-family: sans-serif;
-    margin: 0px
+    margin: 0px;
 }
 
 #mainmenu {
@@ -21,7 +21,7 @@ body {
     text-align: right;
 }
 
-p {
+h5 {
     font-size: 40px;
     color: #000;
     text-align: center;
@@ -40,14 +40,15 @@ ul li{
 
 ul li a {
     color: #fff;
-    width: 100%;
+    width: 80px;
     line-height: 40px;
     text-decoration: none;
 }
 
 ul li.selected {
     background: #fff;
-
+    width: 75px;
+    border-radius: 10px;
 }
 
 ul li.selected a {
