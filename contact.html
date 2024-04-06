@@ -24,15 +24,15 @@
 
     <form name="contact" method="post" action="contact.html">
         First Name <br> <input size="20" maxlength="15" type="text" name="FirstName" value="First Name" required><br>
-        Last Name <br> <input type="text" name="LastName" value="Last Name"><br>
-        Phone Number <br> <input type="text" name="PhoneNumber" value="Phone Number"><br>
+        Last Name <br> <input type="text" name="LastName" value="Last Name" required><br>
+        Phone Number <br> <input type="text" name="PhoneNumber" value="Phone Number" required><br>
         Questions/Comments <br>
-        <textarea name="Comments" rows="15" cols="40">
+        <textarea name="Comments" rows="15" cols="40" required>
             Write a message...
 
         </textarea><br>
         <br>
-        <input type="checkbox" name="box" value="yes"> I agree to receive text messages and updates about this request.
+        <input type="checkbox" name="box" value="yes" required> I agree to receive text messages and updates about this request.
         </br>
         <input type="reset" name="new" value="Cancel">
         <input type="submit" name="Sub" value="Submit">
