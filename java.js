@@ -12,7 +12,7 @@ $select.append($option);
 
 function validateForm() {
   let x = document.forms["contact"]["FirstName"].value;
-  if (x == "") {
+  if (x = "") {
     alert("Name must be filled out");
     return false;
   }
