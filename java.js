@@ -10,11 +10,4 @@ if($(this).parent().hasClass("selected")) {
 }
 $select.append($option);
 
-});
-function validateForm() {
-  let x = document.forms["contact"]["FirstName"].value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
-}
+
