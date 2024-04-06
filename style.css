@@ -54,6 +54,10 @@ ul li.selected {
 ul li.selected a {
     color: #000;
 }
-form {
-    color: #000;
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
