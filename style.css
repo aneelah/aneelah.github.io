@@ -52,5 +52,8 @@ ul li.selected {
 }
 
 ul li.selected a {
-    color: #000
+    color: #000;
+}
+form {
+    color: #000;
 }
