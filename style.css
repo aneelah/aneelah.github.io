@@ -59,4 +59,12 @@ input[type=text] {
   padding: 12px 100px;
   margin: 8px 0;
   box-sizing: border-box;
+    border-radius: 10px solid white;
+}
+
+.form-container {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
