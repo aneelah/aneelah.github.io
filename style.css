@@ -56,8 +56,7 @@ ul li.selected a {
 }
 
 input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
+  padding: 12px 100px;
   margin: 8px 0;
   box-sizing: border-box;
 }
