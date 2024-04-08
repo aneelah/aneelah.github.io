@@ -13,18 +13,21 @@ body {
     background: #6f4e37;
     font-family: sans-serif;
     margin: 0px;
+    font-family: 'Hind', sans-serif;
 }
 
 #mainmenu {
     background-color: #6f4e37;
     height: 40px;
     text-align: right;
+    font-family: 'Hind', sans-serif;
 }
 
 h1 {
     font-size: 40px;
     color: #fff;
     text-align: center;
+    font-family: 'Hind', sans-serif;
 }
 
 ul {
