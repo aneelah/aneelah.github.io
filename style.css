@@ -8,7 +8,9 @@
         display: none;
     }
 }
-
+p{
+    color: #fff;
+}
 body {
     background: #6f4e37;
     font-family: sans-serif;
