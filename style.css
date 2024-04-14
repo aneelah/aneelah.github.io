@@ -72,3 +72,6 @@ display: flex;
     min-height: 100vh;
     color: #fff;
 }
+.btn {
+    background: #6f4e37;
+}
