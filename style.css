@@ -40,7 +40,7 @@ ul {
 ul li{
     display: inline-block;
     width: 80px;
-    text-align: left;
+    text-align: right;
 }
 
 ul li a {
