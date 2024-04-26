@@ -54,6 +54,7 @@ ul li.selected {
     background: #fff;
     width: 80px;
     border-radius: 10px;
+    margin-right: auto;
 }
 
 ul li.selected a {
