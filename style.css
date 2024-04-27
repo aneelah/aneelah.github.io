@@ -26,6 +26,23 @@
         width:100%;
     }
 }
+
+p{
+    color: #fff;
+}
+body {
+    background: #6f4e37;
+    font-family: sans-serif;
+    margin: 0px;
+    font-family: 'Hind', sans-serif;
+}
+
+#mainmenu {
+    background-color: #6f4e37;
+    height: 40px;
+    text-align: right;
+    font-family: 'Hind', sans-serif;
+}
 .sidebar {
     position: fixed;
     top:0;
@@ -46,22 +63,6 @@
 }
 .sidebar a{
     width: 100%;
-}
-p{
-    color: #fff;
-}
-body {
-    background: #6f4e37;
-    font-family: sans-serif;
-    margin: 0px;
-    font-family: 'Hind', sans-serif;
-}
-
-#mainmenu {
-    background-color: #6f4e37;
-    height: 40px;
-    text-align: right;
-    font-family: 'Hind', sans-serif;
 }
 
 h1 {
