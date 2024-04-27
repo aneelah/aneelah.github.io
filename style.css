@@ -25,6 +25,37 @@ body {
     text-align: right;
     font-family: 'Hind', sans-serif;
 }
+ul {
+    list-style: none;
+
+}
+
+ul li{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    align-items: right;
+}
+
+ul li a {
+    color: #fff;
+    width: 80px;
+    line-height: 40px;
+    text-decoration: none;
+    align: right;
+}
+
+ul li.selected {
+    background: #fff;
+    width: 80px;
+    border-radius: 10px;
+    
+}
+
+ul li.selected a {
+    color: #000;
+}
+
 .sidebar {
     position: fixed;
     top:0;
@@ -72,34 +103,6 @@ h1 {
     font-family: 'Hind', sans-serif;
 }
 
-ul {
-    list-style: none;
-
-}
-
-ul li{
-    display: inline-block;
-    width: 80px;
-    text-align: center;
-}
-
-ul li a {
-    color: #fff;
-    width: 80px;
-    line-height: 40px;
-    text-decoration: none;
-}
-
-ul li.selected {
-    background: #fff;
-    width: 80px;
-    border-radius: 10px;
-    
-}
-
-ul li.selected a {
-    color: #000;
-}
 
 input[type=text] {
   padding: 12px 125px;
