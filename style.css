@@ -33,7 +33,7 @@ ul {
 ul li{
     display: inline-block;
     width: 80px;
-    text-align: center;
+    text-align: right;
     align-items: right;
 }
 
